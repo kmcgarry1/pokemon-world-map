@@ -74,7 +74,7 @@ onMounted(() => {
   // init map at last known or default
   const map = new mapboxgl.Map({
     container: mapContainer.value,
-    style: 'mapbox://styles/mapbox/streets-v11',
+    style: 'mapbox://styles/kevinmcg/cmd8pc6rf00w001s9bbnt0ahn',
     center: [currentPos.longitude, currentPos.latitude],
     zoom: 18,
     minZoom: 18,
@@ -105,7 +105,7 @@ onMounted(() => {
       source: 'wild-spawns',
       layout: {
         'icon-image': ['concat', ['get', 'spriteId'], '-icon'],
-        'icon-size': 0.5,
+        'icon-size': 1,
         'icon-allow-overlap': true,
       },
     });
