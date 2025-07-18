@@ -26,6 +26,12 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+keys
+keys.pub
+
+# SSH keys
+*.pub
+
 
 *.tsbuildinfo
 
